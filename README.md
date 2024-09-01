@@ -15,12 +15,12 @@ The Cron Expression Parser is a Java-based application designed to parse and exp
 
 First, clone the repository to your local machine using the following command:
 
-git clone https://github.com/rka8870/cron-parser
-Building the Project
+- git clone https://github.com/rka8870/cron-parser
+- Building the Project
 Navigate to the project directory and build the project using Maven:
 
-cd CronExpressionParser
-mvn clean install
+ - cd CronExpressionParser
+ - mvn clean install
 
 ### Running the Application
 
