@@ -1,8 +1,6 @@
 package org.example.fieldParser;
 
 import org.example.characterParser.SpecialCharacter;
-
-import java.util.List;
 import java.util.Set;
 
 public class FieldContext {
