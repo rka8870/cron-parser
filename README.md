@@ -19,7 +19,7 @@ First, clone the repository to your local machine using the following command:
 - Building the Project
 Navigate to the project directory and build the project using Maven:
 
- - cd cd cron-parser
+ - cd cron-parser
  - mvn clean install
 
 ### Running the Application
