@@ -49,10 +49,21 @@ Usage Once the application is running, it will prompt you to enter a cron expres
 ### Example Cron Expressions
 
 Valid Cron Expressions
+
 */15 0 1,15 * 1-5 /usr/bin/find
 This expression means:
 Every 15 minutes
 At hour 0
+On the 1st and 15th day of the month
+Every month
+On Monday to Friday
+Execute the command /usr/bin/find
+
+
+*/15 2,4-6,9/3 1,15 * 1-5 /usr/bin/find
+This expression means:
+Every 15 minutes
+At hour 2 4 5 6 9 12 15 18 21
 On the 1st and 15th day of the month
 Every month
 On Monday to Friday
