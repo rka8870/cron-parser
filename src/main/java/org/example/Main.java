@@ -8,11 +8,16 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) throws Exception {
-        System.out.println("Enter the cron-expression.");
-        Scanner scanner = new Scanner(System.in);
-        String cronExpression = scanner.nextLine();
         CronParser cronParser = new CronParser();
-        cronParser.parseExpression(cronExpression);
+        if(args.length<1){
+            System.out.println("Enter the cron-expression.");
+            Scanner scanner = new Scanner(System.in);
+            String cronExpression = scanner.nextLine();
+            cronParser.parseExpression(cronExpression);
+            cronParser.viewExpandedExpression();
+            return;
+        }
+        cronParser.parseExpression(args[0]);
         cronParser.viewExpandedExpression();
     }
 }
