@@ -79,5 +79,9 @@ This expression contains an invalid character a.
 */15 0 1,15 *-5 /usr/bin/find
 This expression contains an invalid range *-5.
 
+# All Steps Snapshot
+<img width="1728" alt="Screenshot 2024-09-01 at 8 29 15 PM" src="https://github.com/user-attachments/assets/24884b49-b4bf-4dd4-94d7-d851462830d4">
+
+
 # Support
 Email to rka8870@gmail.com for support
